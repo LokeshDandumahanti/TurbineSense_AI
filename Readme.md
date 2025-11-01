@@ -57,30 +57,6 @@ Gas turbines operate under extreme thermal and mechanical stress, making **perfo
 
 ---
 
-## 🏗 System Architecture
-
-┌──────────────────────────────┐
-│ Streamlit UI │ ← Dashboard + Chatbot
-└────────────┬─────────────────┘
-│
-┌────────────▼──────────────┐
-│ Prediction Engine │
-│ • Short-term XGBoost │
-│ • Long-term XGBoost │
-└────────────┬──────────────┘
-│
-┌────────────▼──────────────┐
-│ Drift & Anomaly Logic │
-│ • Residual Tracking │
-│ • Threshold Evaluation │
-└────────────┬──────────────┘
-│
-┌────────────▼──────────────┐
-│ LLM Troubleshoot Agent │ ← Optional Groq API
-└───────────────────────────┘
-
----
-
 ## 🔬 Prediction & Drift Logic
 
 ### Rolling Training Cycle
@@ -122,6 +98,7 @@ Gas turbines operate under extreme thermal and mechanical stress, making **perfo
 pip install -r requirements.txt
 python app.py
 streamlit app.py
+
 
 
 
