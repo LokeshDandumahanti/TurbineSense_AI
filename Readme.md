@@ -37,7 +37,6 @@ Gas turbines operate under extreme thermal and mechanical stress, making **perfo
 <img width="1377" height="703" alt="Screenshot 2025-11-01 232436" src="https://github.com/user-attachments/assets/20e219dc-8250-439c-b52f-27ed9db3125e" />
 <img width="1372" height="600" alt="Screenshot 2025-11-01 232417" src="https://github.com/user-attachments/assets/53e0fd5f-b7ec-4058-8c30-862d686cf042" />
 <img width="1375" height="776" alt="Screenshot 2025-11-01 232354" src="https://github.com/user-attachments/assets/00f59674-8916-4e7c-a8fd-d679ef99dbf5" />
-<img width="1522" height="617" alt="Screenshot 2025-11-01 232623" src="https://github.com/user-attachments/assets/c92067e0-9f55-4723-9d59-7a97bef14e0a" />
 <img width="1375" height="555" alt="Screenshot 2025-11-01 232525" src="https://github.com/user-attachments/assets/656bc41a-0207-46c3-9c48-26d96f418ca5" />
 <img width="1370" height="681" alt="Screenshot 2025-11-01 232514" src="https://github.com/user-attachments/assets/bd7decf6-f6c6-4bb0-bdc8-cc97fbe4b912" />
 
@@ -98,6 +97,7 @@ Gas turbines operate under extreme thermal and mechanical stress, making **perfo
 pip install -r requirements.txt
 python app.py
 streamlit app.py
+
 
 
 
