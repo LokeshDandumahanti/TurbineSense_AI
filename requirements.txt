@@ -1,0 +1,1 @@
+pip install pandas streamlit seaborn matplotlib scikit-learn groq numpy xgboost
